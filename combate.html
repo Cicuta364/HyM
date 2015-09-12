@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Heroes y Monstruos</title>
+	<link rel="stylesheet" href="combate.css">
+	<script src="combate.js"></script>
+</head>
+<body>
+	<h1>Combate Real</h1>
+	<img src="combate.jpg" alt="">
+	<div class='ataques'>
+		<input class='btn' type="button" onclick="Heroe.prototype.ataque(monstruo)" value="Ataque del Heroe!!">
+
+		<input class='btn' type="button" onclick="Monstruo.prototype.ataque(heroe)"	value="Ataque del Enemigo!!">
+	</div>
+	<div class="posion">
+		<input class='btn' type="button" onclick="posion ()" value="Posion">
+	</div>
+	<div class="enemigo">
+		<input class='btn' type="button" onclick="nuevo_monstruo()" value="Nuevo Enemigo">
+	</div>
+</body>
+</html>
